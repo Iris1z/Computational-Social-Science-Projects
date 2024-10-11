@@ -9,3 +9,32 @@ Receiving objects: 100% (3/3), done.
 (base) zxx@zhaoxiaoxuedeMacBook-Pro Computational-Social-Science-Projects. % mkdir "Project 1"
 (base) zxx@zhaoxiaoxuedeMacBook-Pro Computational-Social-Science-Projects. % cd "/Users/zxx/Documents/git/SOCIOL273L/Computational-Social-Science-Projects./Project 1"
 (base) zxx@zhaoxiaoxuedeMacBook-Pro Project 1 % touch terminal_code.txt
+(base) zxx@zhaoxiaoxuedeMacBook-Pro Project 1 % git add .
+(base) zxx@zhaoxiaoxuedeMacBook-Pro Project 1 % git commit -m"0923 2335"
+[main f76f838] 0923 2335
+ 2 files changed, 11 insertions(+)
+ create mode 100644 Project 1/.DS_Store
+ create mode 100644 Project 1/terminal_code.txt
+(base) zxx@zhaoxiaoxuedeMacBook-Pro Project 1 % git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 916 bytes | 916.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Iris1z/Computational-Social-Science-Projects..git
+   0c8a63e..f76f838  main -> main
+(base) zxx@zhaoxiaoxuedeMacBook-Pro Project 1 % 
+  683  git add .
+  684  git commit -m"line2 modified"
+  685  git push origin add-degree-programs
+  686  git check main
+  687  git checkout main
+  688  git merge add-degree-programs
+  689  git push origin main
+  690  git branch
+  692  git checkout add-degree-programs
+  693  git add .
+  694  git commit -m"iris's edit"
+  695  git push
+  696  git push origin add-degree-programs
