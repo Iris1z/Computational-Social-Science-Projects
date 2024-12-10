@@ -1,0 +1,8 @@
+**Tradeoff Reflection**
+Despite the effort and detail that went into this workflow, the results highlight how difficult it is to achieve meaningful improvements in real-world data processing tasks. While it was frustrating to see marginal gains in some cases, the process itself was insightful and valuable.
+
+I specifically included the configuration with 120 PCA components because the cumulative explained variance analysis showed that retaining 120 components was necessary to achieve 90% explained variance. This decision allowed me to compare how different levels of dimensionality reduction affected model performance. The results confirmed that using 120 components improved accuracy compared to 30 components, but it also introduced the risk of overfitting due to the increased feature complexity.
+
+For the PCA + Clustering Features configuration, the accuracy improvement compared to using 30 PCA components alone demonstrates the contribution of clustering features in this situation. This result underscores the value of combining different unsupervised learning techniques when their outputs are meaningfully aligned with the target variable.
+
+At first, this project felt “less organized and straightforward” compared to previous ones, as I frequently had to adapt and re-evaluate my approach. However, this iterative process significantly deepened my understanding of the interplay between unsupervised learning techniques and supervised models. I gained a stronger intuition for balancing dimensionality reduction, clustering, and feature complexity, which will undoubtedly inform my future work.
